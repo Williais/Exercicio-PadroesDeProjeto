@@ -1,11 +1,13 @@
 package org.example;
 
+import org.example.tipoFita.TipoFita;
+
 public class Fita {
     private String tipoFita;
     private String titulo;
     private int codigoDePreco;
 
-    public Fita(String titulo, int codigoDePreco, String tipoFita) {
+    public Fita(String titulo, TipoFita fita) {
         this.titulo = titulo;
         this.codigoDePreco = codigoDePreco;
         this.tipoFita = tipoFita;
